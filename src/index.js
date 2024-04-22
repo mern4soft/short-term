@@ -105,7 +105,7 @@ const App = () => {
                <p className="mb-4">hello world</p>
                <div className="relative">
                   <button onClick={toggleDropdown} className=" text-white font-bold py-2 px-4 rounded">
-                     <FaPlus/>
+                     <FaPlus />
                   </button>
                   {dropdownVisible && (
                      <div className="dropdown-content mt-4 right-[-19px] text-center absolute bg-gray-800 text-white py-4 px-4  rounded w-[1000px] transition delay-150">
@@ -118,7 +118,7 @@ const App = () => {
                <p className="mb-4">hello world</p>
                <div className="relative">
                   <button onClick={toggleDropdown} className=" text-white font-bold py-2 px-4 rounded">
-                     <FaPlus/>
+                     <FaPlus />
                   </button>
                   {dropdownVisible && (
                      <div className="dropdown-content mt-4 right-[-19px] text-center absolute bg-gray-800 text-white py-4 px-4  rounded w-[1000px] transition delay-150">
@@ -131,7 +131,7 @@ const App = () => {
                <p className="mb-4">hello world</p>
                <div className="relative">
                   <button onClick={toggleDropdown} className=" text-white font-bold py-2 px-4 rounded">
-                     <FaPlus/>
+                     <FaPlus />
                   </button>
                   {dropdownVisible && (
                      <div className="dropdown-content mt-4 right-[-19px] text-center absolute bg-gray-800 text-white py-4 px-4  rounded w-[1000px] transition delay-150">
@@ -144,7 +144,7 @@ const App = () => {
                <p className="mb-4">hello world</p>
                <div className="relative">
                   <button onClick={toggleDropdown} className=" text-white font-bold py-2 px-4 rounded">
-                     <FaPlus/>
+                     <FaPlus />
                   </button>
                   {dropdownVisible && (
                      <div className="dropdown-content mt-4 right-[-19px] text-center absolute bg-gray-800 text-white py-4 px-4  rounded w-[1000px] transition delay-150">
@@ -157,7 +157,7 @@ const App = () => {
                <p className="mb-4">hello world</p>
                <div className="relative">
                   <button onClick={toggleDropdown} className=" text-white font-bold py-2 px-4 rounded">
-                     <FaPlus/>
+                     <FaPlus />
                   </button>
                   {dropdownVisible && (
                      <div className="dropdown-content mt-4 right-[-19px] text-center absolute bg-gray-800 text-white py-4 px-4  rounded w-[1000px] transition delay-150">
@@ -170,7 +170,7 @@ const App = () => {
                <p className="mb-4">hello world</p>
                <div className="relative">
                   <button onClick={toggleDropdown} className=" text-white font-bold py-2 px-4 rounded">
-                     <FaPlus/>
+                     <FaPlus />
                   </button>
                   {dropdownVisible && (
                      <div className="dropdown-content mt-4 right-[-19px] text-center absolute bg-gray-800 text-white py-4 px-4  rounded w-[1000px] transition delay-150">
@@ -183,7 +183,7 @@ const App = () => {
                <p className="mb-4">hello world</p>
                <div className="relative">
                   <button onClick={toggleDropdown} className=" text-white font-bold py-2 px-4 rounded">
-                     <FaPlus/>
+                     <FaPlus />
                   </button>
                   {dropdownVisible && (
                      <div className="dropdown-content mt-4 right-[-19px] text-center absolute bg-gray-800 text-white py-4 px-4  rounded w-[1000px] transition delay-150">
@@ -193,9 +193,43 @@ const App = () => {
                </div>
             </div>
 
+            <section className='flex text-white flex-col  gap-5 justify-center items-center'>
+               <p className='text-2xl'>Ready to watch? Enter your email to create or restart your membership.</p>
+               <div className='flex gap-3'>
+                  <input type="text" className='p-2 w-[500px] text-black' />
+                  <button className='text-white bg-red-500 p-2 hover:bg-white hover:text-black transition delay-100 ease-linear  '>Get started</button>
+               </div>
+            </section>
+
          </section>
-         <footer>
-            
+         <footer className='bg-black h-[250px] flex flex-col justify-center items-center outline-slate-500'>
+
+
+
+
+            <div className='flex justify-around item center gap-[300px] text-white'>
+               <div >
+                  <p>FAQ</p>
+                  <p>Help Centre</p>
+                  <p>Account</p>
+                  <p>Media Centre</p>
+               </div>
+               <div>
+                  <p>Investor Relations</p>
+                  <p>Jobs</p>
+                  <p>Ways to Watch</p>
+                  <p>Terms of Use</p>
+                  <p>Privacy</p>
+               </div>
+               <div>
+                  <p>Cookie Preferences</p>
+                  <p>Corporate Information</p>
+                  <p>Contact Us</p>
+                  <p>Legal Notices</p>
+                  <p> Only on Netflix </p>
+               </div>
+            </div>
+
          </footer>
 
 
